@@ -1,0 +1,99 @@
+footer{
+	background-color: #333366;
+	padding: 50px;	
+}
+.f1{
+	padding-top: 15px;
+	color: white;
+	margin-bottom: 0;
+	font-size: 16px;
+}
+.f2{
+	color: white;
+	margin-bottom: 0;
+	font-size: 30px;
+}
+.f3{
+	color: white;
+	font-size: 12px;
+}
+.f4{
+	width: 150px;
+	margin: 5px;
+	color: white;
+	font-size: 18px;
+}
+.s1{
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+}
+.d8{
+	align-items: center;
+	padding: 5px;
+}
+.d9{
+	padding-left: 300px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.d10{
+	display: flex;
+	flex-direction: row;
+	color: white;
+	justify-content: center;
+}
+.d11{
+	padding: 15px;
+}
+.i4{
+	width: 30px;
+	height: 30px;
+}
+.i5{
+	width: 150px;
+	height:80px;
+}
+.i6{
+	width: 50px;
+	height:50px;
+}
+.square {
+            width: 20px;
+            height: 20px;
+            background-color: green;
+            border: none;
+}
+.square1{
+	 width: 20px;
+            height: 20px;
+            border: none;
+	background: linear-gradient(to right, green 50%, white 50%);
+}
+.s2{
+	padding-left: 280px;
+	display: flex;
+}
+.s3{
+	display: flex;
+	justify-content: center;
+}
+.spin{
+	width: 20px;
+    height: 20px;
+    border: 8px solid rgba(0, 0, 0, 0.2); 
+    border-radius: 12px;
+    animation: spin 5s linear infinite; 
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg); 
+    }
+}
+
+
